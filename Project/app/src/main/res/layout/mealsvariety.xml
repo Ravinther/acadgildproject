@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="#4682B4">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meals Varity"
+            android:textSize="25dip"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingTop="30dip"
+        android:numColumns="auto_fit"
+        android:background="#ff0000"
+        android:gravity="center"
+        android:stretchMode="columnWidth"
+        android:columnWidth="100dip"
+        android:id="@+id/gridview1"></GridView>
+</LinearLayout>

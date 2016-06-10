@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:inputType="text"
+                android:layout_marginTop="20dip"
+                android:layout_marginLeft="10dip"
+                android:hint="Enter the Name"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/email"
+                android:inputType="text"
+                android:layout_marginTop="20dip"
+                android:layout_marginLeft="10dip"
+                android:hint="Enter the email"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/phone"
+                android:inputType="text"
+                android:layout_marginTop="20dip"
+                android:layout_marginLeft="10dip"
+                android:hint="Enter the phone number"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/place"
+                android:inputType="text"
+                android:layout_marginTop="20dip"
+                android:layout_marginLeft="10dip"
+                android:hint="Enter the place"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/street"
+                android:inputType="text"
+                android:layout_marginTop="20dip"
+                android:layout_marginLeft="10dip"
+                android:hint="Enter the Street"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button1"
+                android:text="Save"
+                android:onClick="run"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Broadcast</string>
+    <string name="Delete">Are you sure</string>
+    <string name="Yes">Proceed Delete</string>
+    <string name="No">No need to Delete</string>
+</resources>
+
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+   <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button1"
+        android:textSize="25dp"
+        android:height="10dp"
+        android:width="10dp"
+       android:id="@+id/button"
+       android:textColor="#ffffff"
+       android:background="#191970"
+       android:layout_marginTop="50dp"
+       android:layout_marginBottom="100dp"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentEnd="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button2"
+        android:textSize="25dp"
+        android:height="10dp"
+        android:width="10dp"
+        android:background="#FF0000"
+        android:id="@+id/button2"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="button3"
+        android:textSize="25dp"
+        android:paddingTop="15dp"
+        android:background="#00CC00"
+        android:layout_above="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/button3"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/sample"
+            />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Show"
+        android:text="show"
+        android:layout_alignParentBottom="true"
+        android:textSize="25dp"
+        android:background="#ff0000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="75dp"
+        android:height="50dp"
+        android:width="30dp"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        />
+
+
+</RelativeLayout>

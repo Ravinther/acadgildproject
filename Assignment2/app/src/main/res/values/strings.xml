@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Assignment 2</string>
+    <string-array name="spinner_item">
+        <item>Tamil Nadu</item>
+        <item>Kerala</item>
+        <item>Andhra Pradesh</item>
+        <item>Goa</item>
+        <item>Bihar</item>
+    </string-array>
+</resources>

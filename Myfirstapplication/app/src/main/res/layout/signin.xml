@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="60dip"
+            android:layout_height="50dip"
+            android:id="@+id/image1"
+            android:src="@drawable/logo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Ravinther Murugaiyan"
+        android:paddingTop="10dip"
+        android:paddingLeft="80dip"
+        android:textSize="30dp"
+        android:id="@+id/brandname"
+        >
+    </TextView>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/signup"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ff0000"
+            android:text="Sign-Up"></TextView>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Username1"
+        android:hint="Enter the Username"
+        android:gravity="center"
+        android:layout_centerHorizontal="true" >
+        <requestFocus/>
+    </EditText>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Password1"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter Password"
+        android:password="true"
+        android:layout_below="@+id/Username1"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Repassword"
+        android:hint="Re-Enter password"
+        android:layout_below="@+id/Password1"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone"
+        android:hint="Enter Phone Number"
+        android:layout_below="@+id/Repassword"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Email"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Email"
+        android:layout_below="@+id/phone"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Email"/>
+    </RelativeLayout>
+</RelativeLayout>
